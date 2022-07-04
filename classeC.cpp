@@ -6,6 +6,7 @@ public:
     C(string C1, int C2);
     void MC1();
     void MC2();
+    void MC3();
 private:
     string C1;
     int C2;
@@ -24,6 +25,9 @@ C::C(string C1, int C2){
         cout << "MC2()" << endl;
     }
 
+    void C::MC3(){
+        cout << "MC3()" << endl;
+    }
 
 int main(){
 
