@@ -10,6 +10,7 @@ public:
 	void setA2(float A2);
 	void MA1();
 	void MA2();
+	void MA3();
 private:
 	int A1;
 	float A2;
@@ -39,6 +40,9 @@ A::A(int A1, float A2){
 	}
 	void A::MA2(){
 		cout << "MA2()" << endl;
+	}
+	void A::MA3(){
+		cout << "Alteracao a classe A partir do clone";
 	}
 //---------------------------------------------
 int main(){
