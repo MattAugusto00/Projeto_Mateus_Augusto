@@ -10,6 +10,7 @@ public:
 	void setB2(float B2);
 	void MB1();
 	void MB2();
+	void MB3();
 private:
 	int B1;
 	float B2;
@@ -39,6 +40,9 @@ B::B(int B1, float B2){
 	}
 	void B::MB2(){
 		cout << "MB2()" << endl;
+	}
+	void B::MB3(){
+		cout << "MB3()" << endl;
 	}
 //---------------------------------------------
 int main(){
